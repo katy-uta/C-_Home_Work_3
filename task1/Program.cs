@@ -39,11 +39,11 @@ void Palindrome(string count)
     string message2 = "Введенное число НЕ ЯВЛЯЕТСЯ палиндромом";
     string message3 = "Введенное число НЕ пятизначное";
     if (count.Length != 5)
-        Console.WriteLine(message3);    
-    else  if  (count[0] == count[4] && count[1] == count[3])
-            Console.WriteLine(message1);
-         else
-            Console.WriteLine(message2);
+        Console.WriteLine(message3);
+    else if (count[0] == count[4] && count[1] == count[3])
+        Console.WriteLine(message1);
+    else
+        Console.WriteLine(message2);
 }
 
 
